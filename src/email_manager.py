@@ -20,8 +20,8 @@ def save_emails(emails):
 
 def send_email_alert(receivers, subject, body):
     print("mail sending 1")
-    sender_email = 'vignonvinom@gmail.com'
-    sender_password = 'cyha tzmn ntka tnhq' 
+    sender_email = 'your_email'
+    sender_password = 'your_key_passwd' 
 
     message = MIMEMultipart()
     message['From'] = sender_email
