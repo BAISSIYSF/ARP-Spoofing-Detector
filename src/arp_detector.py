@@ -59,8 +59,8 @@ def set_interval(func, sec):
 interval = set_interval(scan_arp, 30)
 
 def send_email_alert(sender, receivers, subject, body):
-    sender_email = 'vignonvinom@gmail.com'  # Change to your Gmail email address
-    sender_password = 'cyha tzmn ntka tnhq'  # Change to your Gmail password
+    sender_email = 'your_email'  # Change to your Gmail email address
+    sender_password = 'your_key_passwd'  # Change to your Gmail password
     print(1)
     message = MIMEMultipart()
     message['From'] = sender
